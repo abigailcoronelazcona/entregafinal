@@ -1,0 +1,61 @@
+
+ @import"partials/index";
+ @import "partials/contacto";
+ @import"partials/tienda";
+ @import "partials/trabajos";
+ @import "partials/servicios";
+ 
+ $principalcolor: #6BDFDA;
+ $secondarycolor: #9AD7F3;
+ $tertiarycolor: #FEC3C7;
+ $colortexto: #232323;
+ $colorfondo: #bea7a7;
+ $colortextodos:#ffffff;
+
+
+ $primary: $tertiarycolor;
+ $accordion-color:$colortexto;
+ $accordion-button-active-color:$colortexto;
+ $accordion-body-padding-x: 5rem;
+ 
+ 
+ $navbar-light-hover-color:#9ad7f3;
+
+ footer {
+    display: flex;
+    justify-content: space-around;
+    background-color:#ffffff;
+ 
+  
+    .copy {
+      padding: 15px;
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .redes {
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 15px;
+  
+      a {
+        padding: 5px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+      }
+    }
+  }
+  
+
+
+
+      
+
+
+ @import "../libs/bootstrap/scss/bootstrap";
+ @import"../libs/bootstrap/scss/variables-dark";
+
+
+
+
