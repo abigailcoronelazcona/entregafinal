@@ -93,18 +93,7 @@ main section div img {
 }
 
 header {
-  margin-bottom: 30px;
-}
-
-h1, .h1 {
-  margin-bottom: 20px;
-}
-
-.cards {
-  border: 1px groove #bea7a7;
-  padding: 10px;
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
+  margin-bottom: 10px;
 }
 
 footer {
