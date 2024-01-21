@@ -53,53 +53,40 @@
           <hr>
           <br>
 
-    
-    <form class="formulario">
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Nombre y Apellido</label>
-        <input type="nombre y apellido" class="form-control" id="completa">
-      </div>
-      <br>
-      <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Mail de contacto</label>
-        <input type="mail de contacto" class="form-control" id="completa">
-      </div>
-      <br>
-      <div class="col-md-4">
-        <label for="inputState" class="form-label">Servicio por el que consultas</label>
-        <select id="inputState" class="form-select">
-          <option selected>Branding</option>
-          <option>E commerce</option>
-          <option>Gestion de redes</option>
-          <option>Animacion</option>
-          <option>Diseño grafico</option>
-          <option>Marketing digital</option>
-          <option>Publicidad digital</option>
-          <option>Merchandising</option>
-        </select>
-      </div>
-      <br>
-      <div>
+          <div class="container text-center">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Nombre y Apellido</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Mail de contacto</label>
+            </div> 
+            &nbsp;
+          <div class="form-floating">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+              <option value="1">Branding</option>
+              <option value="2">Identidad</option>
+              <option value="3">Redes</option>
+              <option value="4">Publicidad</option>
+              <option value="5">Edicion de videos</option>
+              <option value="6">Otros</option>
+            </select>
+            <label for="floatingSelect">Selecciona tu servicio de interes</label>
+          </div>
+          &nbsp;
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comentarios</label>
+          </div>
+          &nbsp;
 
-          <label for="inputState" class="form-label">Comentarios</label>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Quiero recibir información</label>
+          </div>
 
-          <textarea cols="50" rows="10"></textarea>
-      </div>
-      <br>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-           Quiero recibir información 
-          </label>
-      </div>
-      <br>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>
-  
-
-
+          <hr class="linea-divisora">
 
         <footer>
             <div class="copy">
