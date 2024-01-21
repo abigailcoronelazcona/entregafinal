@@ -103,8 +103,8 @@ h1, .h1 {
 .cards {
   border: 1px groove #bea7a7;
   padding: 10px;
-  margin-inline-start: 20px;
-  margin-inline-end: 20px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
 }
 
 footer {
